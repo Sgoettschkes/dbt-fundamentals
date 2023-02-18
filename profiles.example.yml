@@ -9,6 +9,6 @@ jaffle_shop:
       user: postgres
       pass: postgres
       dbname: backend
-      schema: public
+      schema: dbt
 
   target: dev

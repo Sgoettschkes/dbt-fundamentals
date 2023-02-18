@@ -1,3 +1,4 @@
+create schema if not exists dbt;
 create schema if not exists jaffle_shop;
 create schema if not exists stripe;
 
