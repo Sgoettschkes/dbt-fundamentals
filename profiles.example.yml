@@ -1,12 +1,14 @@
-dbt_fundamentals:
-  target: dev
+jaffle_shop:
   outputs:
+
     dev:
       type: postgres
+      threads: 1
       host: localhost
-      user: postgres
-      password: postgres
       port: 6543
+      user: postgres
+      pass: postgres
       dbname: backend
       schema: public
-      threads: 4
+
+  target: dev
